@@ -1,0 +1,25 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "WelcomeIntent",
+        "samples": [
+          "what"
+        ]
+      }
+    ],
+    "invocationName": "the class"
+  }
+}

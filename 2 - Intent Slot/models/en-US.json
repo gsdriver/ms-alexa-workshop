@@ -1,0 +1,44 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "HelloWorldIntent",
+        "samples": [
+          "say hello",
+          "say hello world",
+          "hello",
+          "say hi",
+          "say hi world",
+          "hi",
+          "how are you",
+          "say hello {Name}",
+          "say hello world {Name}",
+          "hello {Name}",
+          "say hi {Name}",
+          "say hi world {Name}",
+          "hi {Name}",
+          "how are you {Name}"
+        ],
+        "slots": [
+          {
+            "name": "Name",
+            "type": "AMAZON.Person"
+          }
+        ]
+      }
+    ],
+    "invocationName": "hello world"
+  }
+}
